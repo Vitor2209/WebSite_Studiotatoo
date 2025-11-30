@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Studio - Premium Tattoo & Piercing</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Imported vivid premium fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <span class="loader-text">THE STUDIO</span>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navigation Toggle -->
+    <button id="nav-toggle" class="nav-toggle">
+        <i data-lucide="menu"></i>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <div class="brand-block">
+                <h2>THE STUDIO</h2>
+                <div class="separator-small"></div>
+                <p>Est. 2015</p>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link"><span class="num">01</span> Home</a></li>
+                <li><a href="#about" class="nav-link"><span class="num">02</span> About</a></li>
+                <li><a href="#services" class="nav-link"><span class="num">03</span> Services</a></li>
+                <li><a href="#artists" class="nav-link"><span class="num">04</span> Artists</a></li>
+                <li><a href="#booking" class="nav-link"><span class="num">05</span> Book</a></li>
+                <li><a href="#gallery" class="nav-link"><span class="num">06</span> Gallery</a></li>
+            </ul>
+
+            <div class="sidebar-socials">
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="facebook"></i></a>
+                <a href="#"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg parallax" data-speed="0.5">
+                <img src="https://images.unsplash.com/photo-1605647533135-51b5906087d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHx0YXR0b28lMjBzdHVkaW98ZW58MHx8fGJsYWNrX2FuZF93aGl0ZXwxNzY0NTI3NTIxfDA&ixlib=rb-4.1.0&q=85" alt="Studio Background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content fade-in-up">
+                <p class="hero-subtitle">Welcome to the sanctuary</p>
+                <h1 class="hero-title">THE <span class="gold-text">STUDIO</span></h1>
+                
+                <div class="ornamental-divider">
+                    <span class="line"></span>
+                    <span class="diamond">❖</span>
+                    <span class="line"></span>
+                </div>
+
+                <p class="hero-tagline">Fine Art Tattooing & Body Piercing</p>
+                
+                <div class="hero-actions">
+                    <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                    <a href="#gallery" class="btn btn-outline">View Portfolio</a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-image reveal-left">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1716804081889-f572e4efd5ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHx0YXR0b28lMjBzdHVkaW98ZW58MHx8fGJsYWNrX2FuZF93aGl0ZXwxNzY0NTI3NTIxfDA&ixlib=rb-4.1.0&q=85" alt="Studio Interior">
+                            <div class="frame-border"></div>
+                        </div>
+                    </div>
+                    <div class="about-text reveal-right">
+                        <span class="section-label">// Who We Are</span>
+                        <h2 class="section-title">Artistry meets <br><span class="serif-italic gold-text">Soul</span></h2>
+                        <p class="lead">We don't just ink skin; we etch stories. Founded in 2015, <strong>The Studio</strong> has redefined the tattoo experience, blending sterile precision with an atmosphere of dark elegance.</p>
+                        <p>Our artists are masters of their craft, specializing in hyper-realism, fine-line, and neotraditional styles. Every piece is a collaboration, every session a ritual.</p>
+                        
+                        <div class="stats-row">
+                            <div class="stat-box">
+                                <span class="stat-num">15+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-box">
+                                <span class="stat-num">2k+</span>
+                                <span class="stat-label">Masterpieces</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-box">
+                                <span class="stat-num">100%</span>
+                                <span class="stat-label">Safety Record</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section bg-texture">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="section-label">// Expertise</span>
+                    <h2 class="section-title">Our Services</h2>
+                    <div class="ornamental-divider small center">
+                        <span class="line"></span>
+                        <span class="diamond">❖</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card reveal-up">
+                        <div class="card-inner">
+                            <div class="service-icon"><i data-lucide="pen-tool"></i></div>
+                            <h3>Custom Tattoo</h3>
+                            <p>Bespoke designs tailored to your narrative. From concept to skin, we ensure your vision is realized.</p>
+                            <a href="#booking" class="service-link">Start Project &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="card-inner">
+                            <div class="service-icon"><i data-lucide="layers"></i></div>
+                            <h3>Cover Ups</h3>
+                            <p>Expert transformation. We breathe new life into old ink, turning regrets into pride.</p>
+                            <a href="#booking" class="service-link">Inquire &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="card-inner">
+                            <div class="service-icon"><i data-lucide="gem"></i></div>
+                            <h3>Piercing</h3>
+                            <p>High-end jewelry and precision piercing in a clinical, safe environment.</p>
+                            <a href="#booking" class="service-link">View Jewelry &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="card-inner">
+                            <div class="service-icon"><i data-lucide="message-square"></i></div>
+                            <h3>Consultation</h3>
+                            <p>Sit down with our senior artists. No pressure, just art, coffee, and ideas.</p>
+                            <a href="#booking" class="service-link">Book Free &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artists Section -->
+        <section id="artists" class="section">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="section-label">// The Collective</span>
+                    <h2 class="section-title">Resident Artists</h2>
+                    <div class="ornamental-divider small center">
+                        <span class="line"></span>
+                        <span class="diamond">❖</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="artists-slider">
+                    <div class="artist-profile reveal-up">
+                        <div class="artist-img-box">
+                            <img src="https://images.unsplash.com/photo-1552627019-947c3789ffb5?crop=entropy&cs=srgb&fm=jpg&w=400&h=500&fit=crop" alt="Damien James">
+                            <div class="artist-overlay">
+                                <div class="social-icons">
+                                    <i data-lucide="instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="artist-info">
+                            <h4>Damien James</h4>
+                            <span class="role">Realism & Portraits</span>
+                        </div>
+                    </div>
+
+                    <div class="artist-profile reveal-up" style="transition-delay: 0.1s;">
+                        <div class="artist-img-box">
+                            <img src="https://images.unsplash.com/photo-1604449325317-4967c715538a?crop=entropy&cs=srgb&fm=jpg&w=400&h=500&fit=crop" alt="Sarah Chen">
+                            <div class="artist-overlay">
+                                <div class="social-icons">
+                                    <i data-lucide="instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="artist-info">
+                            <h4>Sarah Chen</h4>
+                            <span class="role">Fine Line & Floral</span>
+                        </div>
+                    </div>
+
+                    <div class="artist-profile reveal-up" style="transition-delay: 0.2s;">
+                        <div class="artist-img-box">
+                            <img src="https://images.pexels.com/photos/1304469/pexels-photo-1304469.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&dpr=1" alt="Marcus Reed">
+                            <div class="artist-overlay">
+                                <div class="social-icons">
+                                    <i data-lucide="instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="artist-info">
+                            <h4>Marcus Reed</h4>
+                            <span class="role">Traditional / Old School</span>
+                        </div>
+                    </div>
+                     <div class="artist-profile reveal-up" style="transition-delay: 0.3s;">
+                        <div class="artist-img-box">
+                            <img src="https://images.unsplash.com/photo-1620486729163-23b5225ae75d?crop=entropy&cs=srgb&fm=jpg&w=400&h=500&fit=crop" alt="Elena Voight">
+                            <div class="artist-overlay">
+                                <div class="social-icons">
+                                    <i data-lucide="instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="artist-info">
+                            <h4>Elena Voight</h4>
+                            <span class="role">Blackwork & Geometric</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Banner -->
+        <section class="quote-banner parallax" data-speed="0.3">
+             <div class="quote-bg"></div>
+             <div class="container text-center">
+                 <h3 class="quote-text">"Show me a man with a tattoo and I'll show you a man with an interesting past."</h3>
+                 <p class="quote-author">— Jack London</p>
+             </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="section-label">// Portfolio</span>
+                    <h2 class="section-title">Selected Works</h2>
+                </div>
+
+                <div class="gallery-grid-masonry">
+                    <div class="gallery-item h-2">
+                        <img src="https://images.unsplash.com/photo-1645836594987-3596702e8870?crop=entropy&cs=srgb&fm=jpg&w=600" alt="Tattoo">
+                        <div class="gallery-hover"><i data-lucide="zoom-in"></i></div>
+                    </div>
+                    <div class="gallery-item h-1">
+                        <img src="https://images.unsplash.com/photo-1562962230-16e4623d36e6?crop=entropy&cs=srgb&fm=jpg&w=600" alt="Tattoo">
+                        <div class="gallery-hover"><i data-lucide="zoom-in"></i></div>
+                    </div>
+                    <div class="gallery-item h-1">
+                        <img src="https://images.unsplash.com/photo-1620486729163-23b5225ae75d?crop=entropy&cs=srgb&fm=jpg&w=600" alt="Tattoo">
+                        <div class="gallery-hover"><i data-lucide="zoom-in"></i></div>
+                    </div>
+                    <div class="gallery-item h-2">
+                        <img src="https://images.unsplash.com/photo-1552627019-947c3789ffb5?crop=entropy&cs=srgb&fm=jpg&w=600" alt="Tattoo">
+                        <div class="gallery-hover"><i data-lucide="zoom-in"></i></div>
+                    </div>
+                    <div class="gallery-item h-1">
+                        <img src="https://images.unsplash.com/photo-1604449325317-4967c715538a?crop=entropy&cs=srgb&fm=jpg&w=600" alt="Tattoo">
+                        <div class="gallery-hover"><i data-lucide="zoom-in"></i></div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8">
+                    <a href="#" class="btn btn-outline">View Full Gallery</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking" class="section booking-section">
+            <div class="container">
+                <div class="booking-card reveal-up">
+                    <div class="booking-header">
+                        <span class="section-label">// Contact</span>
+                        <h2>Request Appointment</h2>
+                        <p>Fill out the form below and we will get back to you to discuss your idea.</p>
+                    </div>
+
+                    <form class="booking-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="input-group">
+                                <select id="service">
+                                    <option value="" disabled selected></option>
+                                    <option>Custom Tattoo</option>
+                                    <option>Cover Up</option>
+                                    <option>Piercing</option>
+                                    <option>Consultation</option>
+                                </select>
+                                <label for="service">Interested In</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="date" id="date">
+                                <label for="date" class="static-label">Preferred Date</label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <textarea id="message" rows="3" required placeholder=" "></textarea>
+                            <label for="message">Describe your idea (placement, size, style)...</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3>THE STUDIO</h3>
+                        <div class="ornamental-divider small">
+                            <span class="line"></span>
+                            <span class="diamond">❖</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-grid">
+                        <div class="footer-info">
+                            <h4>Visit Us</h4>
+                            <p>123 Ink Street, Arts District</p>
+                            <p>New York, NY 10012</p>
+                            <a href="#" class="map-link">Get Directions</a>
+                        </div>
+                        <div class="footer-info">
+                            <h4>Contact</h4>
+                            <p>booking@thestudio.com</p>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="footer-info">
+                            <h4>Hours</h4>
+                            <p>Mon - Sat: 11am - 8pm</p>
+                            <p>Sun: Appointment Only</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="social-links">
+                             <a href="#"><i data-lucide="instagram"></i></a>
+                             <a href="#"><i data-lucide="facebook"></i></a>
+                             <a href="#"><i data-lucide="youtube"></i></a>
+                        </div>
+                        <p>&copy; 2024 The Studio. Premium Tattoo & Piercing.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
