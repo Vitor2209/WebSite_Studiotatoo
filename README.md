@@ -2,7 +2,7 @@
 
 ![Website](caminho/para/gif-ou-screenshot.gif)
 
-Bem-vindo ao website oficial do **[Nome do Estúdio]**, um estúdio de tatuagem moderno e criativo! Este projeto é uma página web totalmente responsiva construída com **HTML**, **CSS** e **JavaScript**, projetada para mostrar serviços, portfólio e informações de contato do estúdio de forma elegante e interativa.
+Bem-vindo ao website oficial do **NcTatoo**, um estúdio de tatuagem moderno e criativo! Este projeto é uma página web totalmente responsiva construída com **HTML**, **CSS** e **JavaScript**, projetada para mostrar serviços, portfólio e informações de contato do estúdio de forma elegante e interativa.
 
 ---
 
